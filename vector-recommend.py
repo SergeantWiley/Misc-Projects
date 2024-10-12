@@ -78,6 +78,7 @@ vector4 = vector(vector_columnID='Movie ID',vectorID=6).dfVector(data)
 print(vector4)
 variances = dimension(vector1, vector2).vectorVariance(ref_vector,realtiveID=True)
 
+
 new_vectors = featureData(1,2).updateTraits(0.01,vector1,vector2,vector3,)
 reduced = dimension(vector1,vector2).dimReduct(2,2)
 print(reduced)
